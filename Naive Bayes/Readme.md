@@ -5,11 +5,12 @@
 **Naive__Bayes.py:**  根据笔记实现了一个简单的朴素贝叶斯分类器，并用鸢尾花数据集(iris.csv)进行验证；
 在test_size=0.3,random_state=42时，在测试集上的准确率为91%（40/41）；
 经过验证，将本数据集x的连续特征划分为3类时分类效果最佳；
-用matplotlib将数据和预测结果可视化，相关函数实现参考了AI回答；
+用matplotlib将数据(data.png)和预测结果(result.png)可视化，相关函数实现参考了AI回答；
 
 
 **Naive_Bayes_Gaussian.pdf:**  计算条件概率的方式改为计算高斯分布的概率，其他条件同上。发现预测效果很差，仅有41%(18/44);
 
 **sklearn_GaussianaNB.py:**  直接调用sklearn的GaussianNB模型，其他条件同上，预测效果为91%(40/31)
+
 
 
